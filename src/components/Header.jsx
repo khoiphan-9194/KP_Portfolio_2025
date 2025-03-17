@@ -1,8 +1,8 @@
 import Nav from './Nav';
-import '/public/component.css';
+import '../css-styles/component.css';
+
 import { useState, useEffect } from 'react';
 import { DateTime } from "./Date";
-
 
 const ArrQuotes=[
     "It's not about ideas. It's about making ideas happen.",

@@ -1,3 +1,10 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -28,7 +35,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
   /* background-color: #0c0b0b; */
-  background-image: url('./img/stars-space.gif');
+  background-image: url('/img/stars-space.gif');
   background-size: 100rem;
 
 
@@ -227,7 +234,7 @@ margin: 10px;
 .portfolio-card {
   /* border: 1px solid rgb(221, 221, 21); */
  
-  background-image: url('./img/giphy.gif');
+  background-image: url('/img/giphy.gif');
   background-size: cover;
   background-position: center;
   border-radius: 20px;
@@ -370,7 +377,7 @@ if you want to have a fixed number of rows, you can use grid-template-rows: repe
   height: fit-content;
   color: whitesmoke;
   flex: 1;
- background: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(14, 14, 14, 0.5) 100%), url('./img/tech-blog.jpeg');
+ background: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(14, 14, 14, 0.5) 100%), url('/img/tech-blog.jpeg');
   background-position: center;
   border-radius: 50px;
   box-shadow: #797a3b 0px 0px 10px 5px;
