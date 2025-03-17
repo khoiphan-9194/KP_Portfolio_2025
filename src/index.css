@@ -1,0 +1,377 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  /* background-color: #0c0b0b; */
+  background-image: url('./img/stars-space.gif');
+  background-size: 100rem;
+
+
+
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+/* ALL SETUPS ABOVE ARE DEFAULTS */
+
+
+/* Home Page */
+
+.home-container {
+
+  min-height: 50ch;
+  padding: 0 1em;
+  margin: 40px;
+}
+
+.home-flex-container {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+.flex-child {
+  flex: 0 1 40%;
+  
+  margin: 50px 0 0 0;
+  
+  
+ justify-content: center;;
+}  
+.flex-child:first-child {
+  margin-right: 20px;
+  display: flex;
+  color: white;
+  align-items: center;
+  text-align: center;
+
+} 
+.flex-child:last-child img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 100px;
+  
+}
+.flex-child:last-child:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+ 
+}
+
+.flex-child:last-child img:hover {
+  border-radius: 0;
+  transition: 0.5s;
+  box-shadow: -10px 20px 25px  rgb(244, 245, 245);
+
+}
+
+
+@keyframes bounce-down {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-60px);
+  }
+  60% {
+    transform: translateY(-30px);
+  }
+
+  80% {
+    transform: translateY(-25px);
+  }
+
+}
+/* END HOME PAGE */
+
+
+/* ABOUT ME PAGE */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 0 50px 0; 
+}
+.about-container h1{
+  margin: 20px 0 40px 20px;
+  color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 5em;
+  font-style: italic;
+  text-align: center;
+  
+}
+.about-section-container {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  /* border: 1px solid white; */
+  margin-bottom:0.5in;
+
+}
+.about-section-child {
+  flex: 0 1 40%;
+  margin: 50px 0 0 0;
+ justify-content: center;
+ /* border: 1px solid white; */
+ margin-bottom:0.5in;
+}  
+.about-section-child:first-child {
+  margin-right: 20px;
+  display: flex;
+  color: white;
+  align-items: center;
+  text-align: center;
+} 
+.about-section-child:first-child img {
+  width: 70%;
+  object-fit:contain;
+  border-radius: 50px;
+  margin: 10px;
+  padding: 10px;
+  
+  
+}
+.about-section-child:last-child {
+color: rgb(244, 237, 237);
+text-wrap: wrap;
+font-size: 1.5rem;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-style: italic;
+text-indent: 2em;
+text-align:center;
+padding: 50px;
+display: flex;
+align-items: center; 
+}
+
+/* END ABOUT ME PAGE */
+
+
+
+/* Portfolio Page */
+
+.portfolio-container {
+  display: flex;
+  flex-direction: column;
+  margin: 70px;
+  /* border: 1px solid white; */
+  height: fit-content;
+  color: whitesmoke;
+  flex: 1;
+}
+.portfolio-section-title {
+ /* background-color: aqua; */
+ text-align: center;
+margin: 10px;
+}
+
+.portfolio-card-container {
+  /* border: 3px solid #bb1818; */
+  padding: 10px;
+  margin: 10px;
+  flex: 1;
+  display: grid;
+  gap: 3em;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  grid-template-columns: repeat(3, minmax(100px, 1fr));
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.portfolio-card {
+  /* border: 1px solid rgb(221, 221, 21); */
+ 
+  background-image: url('./img/giphy.gif');
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 20px;
+
+}
+
+.portfolio-card:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  box-shadow: 0 0 10px 5px rgb(244, 245, 245);
+}
+
+.portfolio-card img {
+  width: 30rem;
+  object-position: center;
+  object-fit:cover;
+  border-radius: 30px;
+  max-height: 15rem;
+  /* clip-path: inset(30% 10% 20% 10%); */
+  transition: transform 1.0s;
+}
+.portfolio-card img:hover {
+  transform: translateY(-10px);
+}
+
+/*  
+Main-Text:hover + .Extra-Text 
+means that when the Main-Text element is hovered, the Extra-Text element that immediately follows it will be displayed.
++ is the adjacent sibling combinator, which selects an element that is immediately preceded by a specified element.
+*/
+.portfolio-card-main-Text:hover + .portfolio-card-extra-Text {
+  display: block;
+ 
+}
+
+.portfolio-card-main-Text{
+  cursor:default;
+  height: 60px;
+}
+
+.portfolio-card-extra-Text {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  padding: 5px;
+  font-size: 16px;
+  display: none;
+ 
+} 
+
+
+/* 
+
+grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+means that the grid will have as many columns as it can fit, each with a minimum width of 300px and a maximum width of 1fr.
+1fr means that the column will take up the remaining space in the grid.
+if you want to have a fixed number of columns, you can use grid-template-columns: repeat(3, 1fr);, for example, to have 3 columns.
+grid-auto-rows: minmax(100px, auto);
+means that the rows will have a minimum height of 100px and will grow to fit the content.
+
+grid-template-row: repeat(auto-fill, minmax(100px, auto));
+means that the grid will have as many rows as it can fit, each with a minimum height of 100px and a maximum height of auto.
+auto-fill means that the grid will create as many tracks as possible without overflowing the container.
+minmax(100px, auto) means that the rows will have a minimum height of 100px and will grow to fit the content.
+if you want to have a fixed number of rows, you can use grid-template-rows: repeat(3, 1fr);, for example, to have 3 rows.
+*/
+
+/* END PORTFOLIO PAGE */
+
+
+
+/* Resume Page */
+.resume-container {
+
+  margin: 150px auto;
+  /* border: 1px solid white; */
+  height: fit-content;
+  color: whitesmoke;
+  width: 70%;
+}
+.resume-section-title {
+  text-align: center;
+  margin: 0 0 60px 0;
+}
+.resume-section-title h2 {
+  font-size: 4em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  color: white;
+}
+.resume-downLoad h1{
+  cursor:default;
+}
+
+.resume-downLoad-btn {
+  margin: 50px;
+  border-radius: 100px;
+  padding: 10px 30px;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  line-height: 20px;
+  border: none;
+  background: linear-gradient(-90deg, #CF77F3 0%, #009BFF 47%, #2AC9DB 100%);
+  position: relative;
+  transform-style: preserve-3d;
+  
+}
+/* Darker background on mouse-over */
+.resume-downLoad-btn:hover {
+
+  background: linear-gradient(-90deg, #313032 0%, #0f9b40 47%, #200b14 100%);
+  color: orangered;
+}
+.resume-downLoad-btn:before {
+  content: "";
+  position: absolute; 
+  inset: -10px;
+  background: inherit;
+  filter: blur(20px);
+  transform: translate3d(15px,15px,-1px);
+  border-radius: inherit;
+  pointer-events: none;
+}
+.resume-solid-line {
+  border-bottom: 2px solid #c00d0d;
+  width: 50%;
+}
+
+/* END RESUME PAGE */
+
+/* Contact Page */
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  margin: 70px;
+  padding: 20px;
+  /* border: 1px solid white; */
+  height: fit-content;
+  color: whitesmoke;
+  flex: 1;
+ background: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(14, 14, 14, 0.5) 100%), url('./img/tech-blog.jpeg');
+  background-position: center;
+  border-radius: 50px;
+  box-shadow: #797a3b 0px 0px 10px 5px;
+}
