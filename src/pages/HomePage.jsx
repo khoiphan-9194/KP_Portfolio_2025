@@ -50,7 +50,7 @@ export default function Home() {
   </div>
 
   <div class="flex-child">
-  <img src="./src/img/profile_pic.jpg" alt="Khoi Phan" />
+  <img src="./img/profile_pic.jpg" alt="Khoi Phan" />
   </div>
 
 </div>

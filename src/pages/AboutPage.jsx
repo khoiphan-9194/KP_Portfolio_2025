@@ -5,7 +5,7 @@ export default function AboutPage() {
       <h1>Get to know me </h1>
       <section className="about-section-container">
         <div className="about-section-child">
-        <img src="./src/img/about_me.jpeg" alt="Khoi Phan" />
+        <img src="./img/about_me.jpeg" alt="Khoi Phan" />
         </div>
 
           <div className="about-section-child">
@@ -29,7 +29,7 @@ export default function AboutPage() {
       <h1>Get to know me </h1>
       <section className="about-section-container">
         <div className="about-section-child">
-        <img src="./src/img/about_me.jpeg" alt="Khoi Phan" />
+        <img src="./img/about_me.jpeg" alt="Khoi Phan" />
         </div>
 
           <div className="about-section-child">
