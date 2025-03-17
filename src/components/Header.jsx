@@ -1,5 +1,5 @@
 import Nav from './Nav';
-import "../css-styles/component.css";
+// import "../css-styles/component.css";
 import { useState, useEffect } from 'react';
 import { DateTime } from "./Date";
 
