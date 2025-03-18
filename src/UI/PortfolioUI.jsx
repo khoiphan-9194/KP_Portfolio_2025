@@ -13,6 +13,7 @@ export default function PortfolioUI({ proJectDetail }) {
                 {projectName}
               </h5>
             </div>
+
               <div className="portfolio-card-extra-Text">
                 <p>
                  {description}
