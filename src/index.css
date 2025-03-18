@@ -521,6 +521,16 @@ if you want to have a fixed number of rows, you can use grid-template-rows: repe
     padding: 10px 25px;
   }
 
+  
+  .card-ui-main {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 50px;
+ 
+  
+    }
+
   .contact-container {
     margin: 30px;
     padding: 15px;
