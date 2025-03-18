@@ -464,7 +464,7 @@ if you want to have a fixed number of rows, you can use grid-template-rows: repe
   }
 
 }
-/* Responsive Design for Tablets!! */
+/* Responsive Design for Tablets!!! */
 @media (min-width: 769px) and (max-width: 1024px) {
   body {
     font-size: 14px;
