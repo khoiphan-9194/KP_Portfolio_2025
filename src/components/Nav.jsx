@@ -16,7 +16,7 @@ const obJectArray=[
 function Nav() {
   const location = useLocation().pathname;
     return (
-      <div className='nav-tabs-main'>
+      <div className='nav-main'>
               <NavTabs links={Object.keys(obJectArray).map((key) => (
         <li className="nav-item">
           <Link to={obJectArray[key].path} className={location === obJectArray[key].path ? "nav-link active" : "nav-link"}>

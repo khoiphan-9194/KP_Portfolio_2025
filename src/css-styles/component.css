@@ -51,7 +51,7 @@
 }
 
 .navbar {
-width: fit-content;
+
 margin-right: 6rem;
 font-size: large;
 font-weight: 1000;
@@ -264,4 +264,95 @@ footer a:hover {
   color: #328C83;
   opacity: 0.5;
   transition: .5s ease;
+}
+@media (max-width: 768px) {
+
+.navbar {
+    
+
+  flex-direction: row;
+  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+  #error-page {
+    height: auto;
+    padding: 1rem;
+  }
+
+  #error-page h1 {
+    font-size: 3rem;
+  }
+
+  #error-page p,
+  #error-page button {
+    font-size: 1rem;
+  }
+
+  .header {
+    margin-bottom: 1rem;
+    padding: 0.25rem;
+    top: 5px;
+  }
+
+  .main-header {
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 0;
+  }
+
+  .main-header h1 {
+    margin-left: 0;
+    text-align: center;
+  }
+
+
+
+  .small-quote {
+    width: 100%;
+    height: auto;
+    padding: 0.25rem;
+  }
+
+  .small-quote h1 {
+    transform: scale(0.8);
+    left: 0;
+    font-size: 1.5rem;
+  }
+
+  .time-display {
+    /* width: 100%;
+    left: 0;
+    top: 2em;
+    font-size: 12px; */
+    display: none;
+  }
+
+  footer {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem;
+  }
+
+  footer h2,
+  footer p {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .logo {
+    font-size: 30px;
+  }
+
+ .nav-main
+  {
+  margin-right: 150px;
+  
+
+  }
+
+
+
+
 }
