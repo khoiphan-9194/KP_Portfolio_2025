@@ -8,7 +8,7 @@ export default function NavTabs({ links }) {
     <nav className="navbar navbar-expand-lg bg-primary">
       <div className="container-fluid">
 
-          <ul className="nav nav-tabs navbar-nav me-auto mb-2 mb-lg-0">
+          <ul className="nav-list nav nav-tabs navbar-nav me-auto mb-2 mb-lg-0">
             {links.map((link) => link)}
           </ul>
         </div>

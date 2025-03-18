@@ -403,8 +403,8 @@ if you want to have a fixed number of rows, you can use grid-template-rows: repe
   .portfolio-container,
   .resume-container,
   .contact-container {
-    margin: 20px;
-    padding: 10px;
+    margin: 15px;
+    padding: 8px;
   }
 
   .home-flex-container,
@@ -437,6 +437,7 @@ if you want to have a fixed number of rows, you can use grid-template-rows: repe
 
   .resume-container {
     width: 90%;
+
   }
 
   .resume-section-title h2 {
@@ -446,6 +447,12 @@ if you want to have a fixed number of rows, you can use grid-template-rows: repe
   .resume-downLoad-btn {
     font-size: 16px;
     padding: 8px 20px;
+  }
+
+  .card-ui-main {
+  display: flex;
+  justify-content: center;
+
   }
 
   .contact-container {
