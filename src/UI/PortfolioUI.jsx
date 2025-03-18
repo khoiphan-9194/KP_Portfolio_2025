@@ -9,9 +9,9 @@ export default function PortfolioUI({ proJectDetail }) {
     
     <div className="portfolio-card">
             <div className="portfolio-card-main-Text">
-              <h3>
+              <h5>
                 {projectName}
-              </h3>
+              </h5>
             </div>
 
               <div className="portfolio-card-extra-Text">
