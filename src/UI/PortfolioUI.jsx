@@ -9,17 +9,10 @@ export default function PortfolioUI({ proJectDetail }) {
     
     <div className="portfolio-card">
             <div className="portfolio-card-main-Text">
-<<<<<<< HEAD
               <h5>
                 {projectName}
               </h5>
-=======
-              <h6>
-                {projectName}
-              </h6>
->>>>>>> 966c0de32f2756c8134ae3e629f8ad25fb7d7f39
             </div>
-
               <div className="portfolio-card-extra-Text">
                 <p>
                  {description}

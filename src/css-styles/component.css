@@ -164,15 +164,20 @@ border-radius: 20px;
   color: #fff;
   text-align: center;
   line-height: 10px;
-  width:15rem;
+  width:10rem;
   background: linear-gradient(-90deg, #0e0e0e 0%, #020c60 47%, #0a0a0a 100%);
   position: relative;
   transform-style: preserve-3d;
   box-shadow:1px 1px 05px 0px;
-  left:44.5em;
+  left:35vw; 
   top:4em;
-  
 }
+/*
+vw means viewport width and vh means viewport height.
+viewport width is the width of the browser window.
+viewport height is the height of the browser window. 
+ */
+
 .time-display:before {
   content: "";
   position: absolute; 
