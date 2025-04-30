@@ -19,7 +19,7 @@ const portfolioArray = [
       deployedLink: "https://khoiphan-9194.github.io/pop_quiz_js/",
     },
     { id: 3,
-      projectName: "Word_Guess_Game",
+      projectName: "Word Guess Game",
       description: "This application is a word guess game where the user has to guess the word by typing in the correct letters.",
       image: "./img/guess-the-word.jpg",
       githubRepo: "https://github.com/khoiphan-9194/Word-Guess-Game",
