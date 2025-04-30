@@ -1,4 +1,5 @@
 import { useState,useEffect } from "react";
+import Projects from "./Projects";
 
 export default function Home() {
   const introDuceArray = [
@@ -54,7 +55,11 @@ export default function Home() {
   </div>
 
 </div>
+<br />
+<br /><br /><br /><br /><br /><br /><br />
 
+
+<Projects />
 
     </div>
     

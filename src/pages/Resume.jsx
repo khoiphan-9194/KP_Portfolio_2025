@@ -71,7 +71,7 @@ export default function Resume() {
 
         <center className="resume-downLoad">
         <h1> My Resume </h1>
-        <section className="resume-solid-line"> </section>
+        <section className="solid-line"> </section>
         <button className="resume-downLoad-btn" onClick={onButtonClick}><i className="fa fa-download"></i>
         <pre>Download Resume</pre>
         </button>

@@ -45,6 +45,7 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+
 }
 
 button {
@@ -210,6 +211,7 @@ align-items: center;
   height: fit-content;
   color: whitesmoke;
   flex: 1;
+  
 }
 .portfolio-section-title {
  /* background-color: aqua; */
@@ -360,7 +362,7 @@ if you want to have a fixed number of rows, you can use grid-template-rows: repe
   border-radius: inherit;
   pointer-events: none;
 }
-.resume-solid-line {
+.solid-line {
   border-bottom: 2px solid #c00d0d;
   width: 50%;
 }
@@ -548,4 +550,83 @@ if you want to have a fixed number of rows, you can use grid-template-rows: repe
     padding: 15px;
     border-radius: 30px;
   }
+}
+
+
+/* Animate neon flicker */
+@keyframes flicker {
+    
+  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+    
+      text-shadow:
+          -0.2rem -0.2rem 1rem #fff,
+          0.2rem 0.2rem 1rem #fff,
+          0 0 2rem var(--neon-text-color),
+          0 0 4rem var(--neon-text-color),
+          0 0 6rem var(--neon-text-color),
+          0 0 8rem var(--neon-text-color),
+          0 0 10rem var(--neon-text-color);
+      
+      box-shadow:
+          0 0 .5rem #fff,
+          inset 0 0 .5rem #fff,
+          0 0 2rem var(--neon-border-color1),
+          inset 0 0 2rem var(--neon-border-color2),
+          0 0 4rem var(--neon-border-color1),
+          inset 0 0 4rem var(--neon-border-color2);        
+  }
+  
+  20%, 24%, 55% {        
+      text-shadow: none;
+      box-shadow: none;
+  }    
+}
+/* animation: flicker 1.5s infinite alternate;  */
+
+
+
+/* projects */
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  margin: 70px;
+  /* border: 1px solid white; */
+  height: fit-content;
+  color: whitesmoke;
+ 
+ background: linear-gradient(90deg, rgba(0,0,0,0.8) 0%, rgba(12, 11, 11, 0.7) 100%), url('/img/web-projects.webp');
+background-size:cover; 
+  background-position: center;
+  border-radius: 50px;
+  box-shadow: #797a3b 0px 0px 10px 5px;
+}
+.projects-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0 50px 0; 
+
+}
+.projects-card-image{
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+ 
+  gap: 1.5em;
+
+}
+.projects-card-image img {
+  width: 100%;
+
+  object-fit: contain;
+  object-position: center;
+  border-radius: 20px;
+  max-height: 25rem;
+
+  /* clip-path: inset(30% 10% 20% 10%); */
+  transition: transform 1.0s;
+}
+.projects-card-image img:hover {
+  transform: translateY(-10px);
 }
