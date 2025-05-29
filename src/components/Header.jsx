@@ -31,30 +31,23 @@ function Header() {
     return (
       <div className="header">
         <header className="main-header">
-
-        <h1>Khoi Phan's Portfolio </h1>
-        <DateTime />
-        <Nav />
-        
-        </header> 
-       
-        <blockquote>
-          <div class="small-quote">
           <h1>
-            <span>
-              <em>"{quote}" </em> 
-              
-            </span>
+            Khoi Phan's Portfolio
           </h1>
-        </div>
- 
-          </blockquote>
-
-        
+          <DateTime />
+          <Nav />
+        </header> 
+        <blockquote>
+          <div className="small-quote">
+            <h1>
+              <span>
+                <em>"{quote}" </em> 
+              </span>
+            </h1>
+          </div>
+        </blockquote>
         {/* <DateTime /> */}
-        
       </div>
-
     );
 }
 
