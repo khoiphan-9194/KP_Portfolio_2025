@@ -51,7 +51,7 @@ Currently, the portfolio is entirely front-end, but I plan to integrate a backen
 
 
 ## Technology:
-```md
+
 - Project is created with:
 
 
@@ -61,7 +61,7 @@ Currently, the portfolio is entirely front-end, but I plan to integrate a backen
 <img src="https://raw.githubusercontent.com/github/explore/main/topics/css/css.png" alt="CSS Logo" width="60" />
 <img src="https://raw.githubusercontent.com/github/explore/main/topics/html/html.png" alt="HTML Logo" width="60" />
 <img src="https://raw.githubusercontent.com/github/explore/main/topics/render/render.png" alt="Render Logo" width="60" />
-```
+
 
 ## Installation:
 
