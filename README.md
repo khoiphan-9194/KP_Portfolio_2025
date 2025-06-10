@@ -5,7 +5,7 @@ react front end, js
 
 <img src="https://raw.githubusercontent.com/github/explore/main/topics/react/react.png" alt="React Logo" width="100" />
 ![](https://img.shields.io/badge/Created%20by-Khoi%20Phan%20-yellow?style=for-the-badge)  
-![](https://img.shields.io/badge/Vite%20React-JS-blue?style=flat-square&logo=npm)  ![](https://img.shields.io/badge/npm%20package-moment-%3CCOLOR%3E?style=flat-square&logo=npm)
+![](https://img.shields.io/badge/Vite%20React-JS-blue?style=flat-square&logo=npm)  ![](https://img.shields.io/badge/npm%20package-moment-orange?style=flat-square&logo=npm)
  ## Table of Contents:  
 [1. Description](#Description)  
 <br />
