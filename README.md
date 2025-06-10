@@ -6,24 +6,25 @@ react front end, js
 <img src="https://media.giphy.com/media/eNAsjO55tPbgaor7ma/giphy.gif" alt="Spinning React Logo" width="120" />
 
 
- ## Table of Contents:  
-[1. Description](#Description)  
-<br />
-[2. Screenshots](#screenshots)
-<br />
-[3. User Story](#user-story)
-<br />
-[4. Technology](#Technology)
-<br />
-[5. License](#License)  
-<br/>
-[6. Submission](#Submission)
-<br />
-[7. Questions](#Questions)  
-<br />
+## Table of Contents
+
+1. [Description](#description)  
+2. [Screenshots](#screenshots)  
+3. [User Story](#user-story)  
+4. [Technology](#technology)  
+5. [License](#license)  
+6. [Submission](#submission)  
+7. [Questions](#questions)  
+
+---
+
+## User Story
 
 ```md
 AS A web developer  
+I WANT to showcase my work and skills in a professional portfolio  
+SO THAT potential employers and clients can easily view my projects, learn about my background, and contact me for opportunities  
+``` 
 I WANT to showcase my work and skills in a professional portfolio  
 SO THAT potential employers and clients can easily view my projects, learn about my background, and contact me for opportunities  
 ```
@@ -60,8 +61,6 @@ Currently, the portfolio is entirely front-end, but I plan to integrate a backen
 <img src="https://raw.githubusercontent.com/github/explore/main/topics/nodejs/nodejs.png" alt="Node.js Logo" width="60" />
 <img src="https://raw.githubusercontent.com/github/explore/main/topics/css/css.png" alt="CSS Logo" width="60" />
 <img src="https://raw.githubusercontent.com/github/explore/main/topics/html/html.png" alt="HTML Logo" width="60" />
-<img src="https://raw.githubusercontent.com/github/explore/main/topics/render/render.png" alt="Render Logo" width="60" />
-
 
 ## Installation:
 
