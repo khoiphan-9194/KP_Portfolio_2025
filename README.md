@@ -1,55 +1,97 @@
-# 📖 Implement React-Router-DOM
 
-## Activity
+# React-KP_Portfolio
+react front end, js
+[https://react-kpportfolio.onrender.com/](https://kp-portfolio-2025.onrender.com/)
 
-Work with a partner to implement the following user story:
 
-* As a developer, I want to implement proper client-side routing.
+![](https://img.shields.io/badge/Created%20by-Khoi%20Phan%20-yellow?style=for-the-badge)  
+![](https://img.shields.io/badge/Vite%20React-JS-blue?style=flat-square&logo=npm)  ![](https://img.shields.io/badge/npm%20package-moment-%3CCOLOR%3E?style=flat-square&logo=npm)
+ ## Table of Contents:  
+[1. Description](#Description)  
+<br />
+[2. Screenshots](#screenshots)
+<br />
+[3. User Story](#user-story)
+<br />
+[4. Technology](#Technology)
+<br />
+[5. License](#License)  
+<br/>
+[6. Submission](#Submission)
+<br />
+[7. Questions](#Questions)  
+<br />
 
-* As a user, I want to initially see the homepage on load.
+```md
+AS A web developer  
+I WANT to showcase my work and skills in a professional portfolio  
+SO THAT potential employers and clients can easily view my projects, learn about my background, and contact me for opportunities  
+```
 
-* As a user, I want to click to see About the developers.
+## Description:
+This portfolio application was thoughtfully designed and developed to present my web projects, resume, and technical skills to prospective employers, clients, and collaborators. Built with React, an open-source JavaScript library for creating user interfaces, the application leverages React’s component-based architecture, efficient virtual DOM rendering, and declarative syntax to deliver a seamless and interactive user experience within a single-page application.
 
-* As a user, I want to be able to click to view the full profile data for a user.
+The front end is structured using functional components and React Hooks, enabling modular, reusable code and efficient state management. React Router is used for client-side navigation, allowing users to move between sections—such as About Me, Portfolio, Contact, and Resume—without full page reloads. The UI is styled with modern CSS, ensuring responsiveness and accessibility across devices. Form validation is handled within React, providing real-time feedback for user input in the contact form. The application also integrates third-party libraries for enhanced features, such as badge displays and date formatting.
 
-## Acceptance Criteria
+Currently, the portfolio is entirely front-end, but I plan to integrate a backend framework in the future to enable direct message submissions through the contact page. React’s flexibility and growing popularity make it an ideal choice for scalable UI development, while its focus on the View layer allows for easy integration with a variety of backend technologies and middleware as needed.
 
-* It is done when the proper imports have been brought into `main.jsx`, `App.jsx`, `/pages/HomePage.jsx`.
 
-* It is done when `main.jsx` has a valid router defined.
 
-  * The user should be able to see three unique pages
-    1. The Home page
-    2. The About page
-    3. The Profile page
+
+
+## Screenshots
+
+![Screenshot1](./src/assets/profile.jpg)
+
+![Screenshot2](./src/assets/about.jpg)
+
+![Screenshot3](./src/assets/portfolio.jpg)
+
+![Screenshot4](./src/assets/resume.jpg)
+
+
+## Technology:
+```md
+- Project is created with:
+
+    - Javascript
+    - Node.js
+    - React
+    - DOM
+    - Render Deployment
+```
+
+## Installation:
+
+
+To make changes to the code base, clone the repo ([repo](https://github.com/khoiphan-9194/KP_Portfolio_2025/)).
+ Run the following at the command line
+```
+    - npm install
+    - npm run start
+    
+```
+
+Users can also feel free to access the live application directly by visiting the render link ([Khoi Phan Portfolio](https://kp-portfolio-2025.onrender.com/)).
+
+## Submission:
+ [KhoiPhan-Github repository](https://github.com/khoiphan-9194/KP_Portfolio_2025)
+
+## License
+[![License: MIT](https://img.shields.io/badge/license-MIT-red)](https://opensource.org/licenses/MIT)
+
+SVG Logo Maker © is licensed under the ISC license.  
+
+For more information regarding the SVG Logo Maker's license, please visit: 
+https://opensource.org/licenses/MIT
+
   
-  * Additionally, when a routing error occurs (such as the user navigates to 'http://localhost:3000/banana'), the user should be shown an ErrorPage.
+## Questions?
+  
+### Github:[khoiphan-9194](https://github.com/khoiphan-9194)
+  
+### Reach Me Via Email: phanminhkhoi91@gmail.com
 
-* It is done when `App.jsx` uses the proper React Router component to show a browser child route.
+Thanks for viewing!
 
-* It is done when `/pages/HomePage.jsx` links to each mock user's profile page.
-
-* It is done when `/pages/ProfilePage.jsx` properly uses the useParams hook to fill in the API call for the individual user's profile data.
-
-## 📝 Notes
-
-Refer to the documentation:
-
-* [React-Router-DOM Docs](https://reactrouter.com/en/main)
-
-* [Create Browser Router Setup](https://reactrouter.com/en/main/routers/create-browser-router)
-
-* [Link Component](https://reactrouter.com/en/main/components/link)
-
-* [useParams Hook](https://reactrouter.com/en/main/hooks/use-params)
-
-## 🏆 Bonus
-
-If you have completed this activity, work through the following challenge with your partner to further your knowledge:
-
-* What are some other ways that you can implement client-side routing with a Vite application?
-
-Use [Google](https://www.google.com) or another search engine to research this.
-
----
-© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+<img src="https://raw.githubusercontent.com/its-jefe/image-hosting/main/goal-pole.png" width="20%">
