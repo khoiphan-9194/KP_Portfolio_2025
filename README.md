@@ -4,8 +4,17 @@ react front end, js
 [https://react-kpportfolio.onrender.com/](https://kp-portfolio-2025.onrender.com/)
 
 <img src="https://raw.githubusercontent.com/github/explore/main/topics/react/react.png" alt="React Logo" width="100" />
-![](https://img.shields.io/badge/Created%20by-Khoi%20Phan%20-yellow?style=for-the-badge)  
-![](https://img.shields.io/badge/Vite%20React-JS-blue?style=flat-square&logo=npm)  ![](https://img.shields.io/badge/npm%20package-moment-orange?style=flat-square&logo=npm)
+[![Created by Khoi Phan](https://img.shields.io/badge/Created%20by-Khoi%20Phan-yellow?style=for-the-badge)](https://github.com/khoiphan-9194)
+[![Vite React](https://img.shields.io/badge/Vite%20React-JS-blue?style=flat-square&logo=react)](https://vitejs.dev/)
+[![npm package: moment](https://img.shields.io/badge/npm%20package-moment-orange?style=flat-square&logo=npm)](https://www.npmjs.com/package/moment)
+[![Deployed on Render](https://img.shields.io/badge/Deployed%20on-Render-46a2f1?style=flat-square&logo=render)](https://kp-portfolio-2025.onrender.com/)
+
+<img src="https://raw.githubusercontent.com/github/explore/main/topics/javascript/javascript.png" alt="JavaScript Logo" width="60" />
+<img src="https://raw.githubusercontent.com/github/explore/main/topics/nodejs/nodejs.png" alt="Node.js Logo" width="60" />
+<img src="https://raw.githubusercontent.com/github/explore/main/topics/css/css.png" alt="CSS Logo" width="60" />
+<img src="https://raw.githubusercontent.com/github/explore/main/topics/html/html.png" alt="HTML Logo" width="60" />
+<img src="https://raw.githubusercontent.com/github/explore/main/topics/render/render.png" alt="Render Logo" width="60" />
+
  ## Table of Contents:  
 [1. Description](#Description)  
 <br />
