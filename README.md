@@ -41,13 +41,13 @@ Currently, the portfolio is entirely front-end, but I plan to integrate a backen
 
 ## Screenshots
 
-![Screenshot1](./public/profile.jpg)
+![Screenshot1](/public/profile.jpg)
 
-![Screenshot2](./public/about.jpg)
+![Screenshot2](/public/about.jpg)
 
-![Screenshot3](./public/portfolio.jpg)
+![Screenshot3](/public/portfolio.jpg)
 
-![Screenshot4](./public/resume.jpg)
+![Screenshot4](/public/resume.jpg)
 
 
 ## Technology:
