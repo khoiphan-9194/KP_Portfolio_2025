@@ -3,7 +3,7 @@
 react front end, js
 [https://react-kpportfolio.onrender.com/](https://kp-portfolio-2025.onrender.com/)
 
-![Spinning React Logo](https://media.giphy.com/media/eNAsjO55tPbgaor7ma/giphy.gif)
+<img src="https://media.giphy.com/media/eNAsjO55tPbgaor7ma/giphy.gif" alt="Spinning React Logo" width="120" />
 
 
  ## Table of Contents:  
