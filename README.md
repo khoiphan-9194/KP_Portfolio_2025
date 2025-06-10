@@ -42,11 +42,8 @@ Currently, the portfolio is entirely front-end, but I plan to integrate a backen
 ## Screenshots
 
 ![Screenshot1](./src/assets/profile.jpg)
-
 ![Screenshot2](./src/assets/about.jpg)
-
 ![Screenshot3](./src/assets/portfolio.jpg)
-
 ![Screenshot4](./src/assets/resume.jpg)
 
 
