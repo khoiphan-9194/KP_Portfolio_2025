@@ -7,20 +7,15 @@ react front end, js
 
 
  ## Table of Contents:  
-[1. Description](#Description)  
-<br />
-[2. Screenshots](#screenshots)
-<br />
-[3. User Story](#user-story)
-<br />
-[4. Technology](#Technology)
-<br />
-[5. License](#License)  
-<br/>
-[6. Submission](#Submission)
-<br />
-[7. Questions](#Questions)  
-<br />
+## Table of Contents
+
+1. [Description](#description)  
+2. [Screenshots](#screenshots)  
+3. [User Story](#user-story)  
+4. [Technology](#technology)  
+5. [License](#license)  
+6. [Submission](#submission)  
+7. [Questions](#questions)  
 
 ```md
 AS A web developer  
