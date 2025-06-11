@@ -16,7 +16,7 @@ const portfolioArray = [
       description: "This application is a timed quiz with multiple-choice questions, and the user's score is based on the time remaining when the quiz is completed.",
       image: "./img/quiz.jpeg",
       githubRepo: "https://github.com/khoiphan-9194/pop_quiz_js",
-      deployedLink: "https://khoiphan-9194.github.io/pop_quiz_js/",
+      deployedLink: "https://khoiphan-9194.github.io/JS_KP_POP_QUIZ/",
     },
     { id: 3,
       projectName: "Word Guess Game",
