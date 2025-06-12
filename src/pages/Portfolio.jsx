@@ -46,6 +46,16 @@ const portfolioArray = [
       githubRepo: "https://github.com/khoiphan-9194/JS-Todo-List",
       deployedLink: "https://khoiphan-9194.github.io/JS-Todo-List/"
     },
+
+    { id: 7,  
+      projectName: "Note Taker",
+      description: "This application is a note-taking app that allows users to create, save, and delete notes.",
+      image: "./img/note-taker.jpg",
+      githubRepo: "https://github.com/khoiphan-9194/Express-NoteTaker",
+      deployedLink: "https://express-notetaker-dlyc.onrender.com/"
+    },
+
+
  
   ];
   return (
