@@ -55,6 +55,15 @@ const portfolioArray = [
       deployedLink: "https://express-notetaker-dlyc.onrender.com/"
     },
 
+      { id: 8,  
+      projectName: "Text Editor",
+      description: `Text Editor is a Progressive Web Application (PWA) that runs in the browser, offline and can be installed locally to your machine.
+      It allows users to create, edit, and save text files.`,
+      image: "./img/text-editor.jpg",
+      githubRepo: "https://github.com/khoiphan-9194/PWA-Text-Editor",
+      deployedLink: "https://pwa-text-editor-fqko.onrender.com/"
+    },
+
 
  
   ];
