@@ -15,7 +15,7 @@ export default function Projects() {
 
     {
       id: 2,
-      project_name: 'Weather_Dashboard',
+      project_name: 'Weather_Dashboard2',
       description: 'This application allows users to search for a city and view the current weather conditions as well as the 5-day forecast.',
       image: ["./img/weather.webp","./img/wells.webp"],
       technologies: ["Html5", "CSS", "JavaScript", "APIs", "Bootstrap", "GIT"]

@@ -36,32 +36,40 @@ export default function Home() {
 
   return (
     <div className="home-container">
+      <div class="home-flex-container">
+        <div class="flex-child">
+          <h1 className="home-intro">
+            <span>
+              <em>{introValue.greeting}</em>
+              <br />
+              <br />
+              <em>{introValue.intro}</em>
+            </span>
+            <br />
+          </h1>
+        </div>
 
-<div class="home-flex-container">
-    <div class="flex-child">
+        <div class="flex-child">
+          <img src="./img/profile_pic.jpg" alt="Khoi Phan" />
+        </div>
+      </div>
+
+      <section className="intro-section-container" style={{ marginTop: "160px", color: "white" }}>
+        <div className="intro-section-child" style={{ fontSize: "1.3em" }}>
+          <h3>🎯 What I’m Looking For</h3>
+          <p>
+            I’m seeking an entry-level front-end or full-stack developer role
+            where I can contribute to real-world projects, grow under
+            mentorship, and be part of a collaborative, mission-driven team.
+          </p>
+        </div>
+      </section>
+      <br />
+
+      <br />
    
-    <h1 className="home-intro">
-      <span>
-        <em>{introValue.greeting}</em>
-        <br /><br />
-        <em>{introValue.intro}</em>
-      </span>
-        <br />
-    </h1>
-  </div>
 
-  <div class="flex-child">
-  <img src="./img/profile_pic.jpg" alt="Khoi Phan" />
-  </div>
-
-</div>
-<br />
-<br /><br /><br /><br /><br /><br /><br />
-
-
-<Projects />
-
+      <Projects />
     </div>
-    
   );
 }

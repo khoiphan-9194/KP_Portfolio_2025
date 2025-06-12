@@ -91,13 +91,25 @@ export default function Portfolio() {
   return (
     <div className="portfolio-container">
       <section className="portfolio-section-title">
-        <h2>Portfolio</h2>
+        <h2> Project Portfolio </h2>
       </section>
 
       <div className="portfolio-card-container">
         {portfolioArray.map((project) => (
           <PortfolioUI proJectDetail={project} key={project.id} />
         ))}
+      </div>
+      
+      <div style={{ display: "flex", justifyContent: "center", marginTop: "2rem" }}>
+        <a
+          href="https://github.com/khoiphan-9194"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button style={{ color:"white", padding: "0.75rem 2rem", fontSize: "1rem", cursor: "pointer" }}>
+            See more projects on my GitHub
+          </button>
+        </a>
       </div>
     </div>
   );

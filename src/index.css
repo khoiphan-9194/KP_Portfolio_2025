@@ -466,6 +466,21 @@ if you want to have a fixed number of rows, you can use grid-template-rows: repe
   }
 
 }
+
+.intro-section-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 50px;
+  text-align: center;
+}
+.intro-section-container h3 {
+  font-size: 3em;
+  color: white;
+  margin-bottom: 20px;
+}
 /* Responsive Design for Tablets!!! */
 @media (min-width: 769px) and (max-width: 1024px) {
   body {
