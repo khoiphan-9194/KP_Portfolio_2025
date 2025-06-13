@@ -242,6 +242,7 @@ margin: 10px;
   border-radius: 20px;
   padding: 10px;
   margin: 20px;
+ 
 
 }
 
@@ -252,7 +253,7 @@ margin: 10px;
 }
 
 .portfolio-card img {
-  width: 30rem;
+  width: 25rem;
   object-position: center;
   object-fit:cover;
   border-radius: 30px;
@@ -608,12 +609,16 @@ if you want to have a fixed number of rows, you can use grid-template-rows: repe
   /* border: 1px solid white; */
   height: fit-content;
   color: whitesmoke;
+  
  
  background: linear-gradient(90deg, rgba(0,0,0,0.8) 0%, rgba(12, 11, 11, 0.7) 100%), url('/img/web-projects.webp');
 background-size:cover; 
   background-position: center;
   border-radius: 50px;
   box-shadow: #797a3b 0px 0px 10px 5px;
+  padding: 20px;
+
+  
 }
 .projects-center {
   display: flex;
@@ -622,15 +627,20 @@ background-size:cover;
   align-items: center;
   margin: 0px 0 50px 0; 
 
+
+
 }
 .projects-card-image{
 
   display: grid;
   grid-template-columns: repeat(2, 1fr);
  
-  gap: 1.5em;
+  gap: 2em;
+
 
 }
+
+
 .projects-card-image img {
   width: 100%;
 
@@ -639,9 +649,40 @@ background-size:cover;
   border-radius: 20px;
   max-height: 25rem;
 
+
   /* clip-path: inset(30% 10% 20% 10%); */
   transition: transform 1.0s;
+  
 }
 .projects-card-image img:hover {
   transform: translateY(-10px);
+}
+
+.projects-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+  padding: 20px 0;
+
+}
+.projects-card-extra-Text {
+
+
+
+
+  font-size: 20px;
+
+  color: rgb(7, 206, 246);
+  text-align: center;
+ 
+ 
+}
+
+.projects-card-github-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+
 }

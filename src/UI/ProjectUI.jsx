@@ -42,6 +42,11 @@ const {projectArray} = props;
                 <img key={index} src={img} alt="Project" />
               ))}
             </div>
+            <div className="projects-card-github-link">
+              <a href={project.github_repo} target="_blank" rel="noopener noreferrer">
+                View on GitHub
+              </a>
+            </div>
           
             <br />
             <section className="solid-line"> </section>
