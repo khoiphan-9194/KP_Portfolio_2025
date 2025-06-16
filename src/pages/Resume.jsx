@@ -36,7 +36,7 @@ export default function Resume() {
   // Function will execute on click of button
   const onButtonClick = () => {
     // using Java Script method to get PDF file
-    fetch("./public/resume.pdf")
+    fetch("./public/jp-work-resume.pdf")
     .then(async (response) => {
       if(!response.ok){
         alert("Network response was not ok");
@@ -58,7 +58,7 @@ export default function Resume() {
       // Setting various property values
       let alink = document.createElement("a");
       alink.href = fileURL;
-      alink.download = "KhoiPhan-resume.pdf";
+      alink.download = "JasonKhoiPhan-resume.pdf";
       alink.click(); // This will download the PDF file in the browser window
      
     });
