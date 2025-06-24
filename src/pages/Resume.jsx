@@ -36,7 +36,7 @@ export default function Resume() {
   // Function will execute on click of button
   const onButtonClick = () => {
     // using Java Script method to get PDF file
-    fetch("./dist/resume.pdf")
+    fetch("/resume.pdf")
     .then(async (response) => {
       if(!response.ok){
         alert("Network response was not ok");
