@@ -87,6 +87,24 @@ export default function Portfolio() {
       githubRepo: "https://github.com/khoiphan-9194/React-BucketList/",
       deployedLink: "https://react-bucketlist.onrender.com/",
     },
+    {
+      id: 10,
+      projectName: "Calculator",
+      description: `Calculator is a simple web application built with React that allows users to perform basic arithmetic operations.
+      The intuitive interface makes it easy to use, while the responsive design ensures it works on all devices.`,
+      image: "./img/calculator.png",
+      githubRepo: "https://github.com/khoiphan-9194/React-Calculator-KP",
+      deployedLink: "https://react-calculator-kp.onrender.com/",
+    },
+    {
+      id: 11,
+      projectName: "Chat Application-Beetalk",
+      description: `Beetalk is a real-time chat application built with React and Socket.io.
+      It allows users to create accounts, join chat rooms, and send messages in real-time.`,
+      image: "./img/chat-app.jpg",
+      githubRepo: "https://github.com/khoiphan-9194/MERN-Chat-App-KP",
+      deployedLink: "https://beetalk-g50u.onrender.com/",
+    },
   ];
   return (
     <div className="portfolio-container">

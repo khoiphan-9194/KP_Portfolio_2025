@@ -242,6 +242,8 @@ margin: 10px;
   border-radius: 20px;
   padding: 10px;
   margin: 20px;
+  height: fit-content;
+  
  
 
 }
@@ -253,11 +255,12 @@ margin: 10px;
 }
 
 .portfolio-card img {
-  width: 25rem;
+  width: 20rem;
+  height: 15rem;
   object-position: center;
   object-fit:cover;
   border-radius: 30px;
-  max-height: 15rem;
+  max-height: 20rem;
   /* clip-path: inset(30% 10% 20% 10%); */
   transition: transform 1.0s;
 }
