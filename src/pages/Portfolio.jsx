@@ -105,6 +105,15 @@ export default function Portfolio() {
       githubRepo: "https://github.com/khoiphan-9194/MERN-Chat-App-KP",
       deployedLink: "https://beetalk-g50u.onrender.com/",
     },
+    {
+      id: 12,
+      projectName: "Book Search Engine",
+      description: `Book Search Engine is a web application built with MERN technology that allows users to search for books using the Google Books API.
+      Users can save and view book details, including title, author, and description.`,
+      image: "./img/book-search.jpg",
+      githubRepo: "https://github.com/khoiphan-9194/MERN-BOOK-SEARCH",
+      deployedLink: "https://mern-book-search-w0gy.onrender.com/",
+    },
   ];
   return (
     <div className="portfolio-container">
